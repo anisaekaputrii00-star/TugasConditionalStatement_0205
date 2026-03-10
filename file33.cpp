@@ -8,3 +8,8 @@ void inputData(float &berat, float &tinggi) {
     cout << "Masukkan tinggi badan (meter): ";
     cin >> tinggi;
 }
+
+// Fungsi untuk menghitung BMI
+float hitungBMI(float berat, float tinggi) {
+    return berat / (tinggi * tinggi);
+}
