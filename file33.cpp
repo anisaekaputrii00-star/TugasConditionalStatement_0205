@@ -41,4 +41,6 @@ int main() {
 
     // Menampilkan hasil BMI dan kondisi berat badan
     cout << "BMI Anda: " << bmi << endl;
+    cout << "Kondisi Berat Badan: " << kondisiBMI(bmi) << endl;
+    
 
