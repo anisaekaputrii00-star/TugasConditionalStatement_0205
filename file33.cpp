@@ -38,4 +38,7 @@ int main() {
 
     // Memanggil fungsi hitung BMI
     bmi = hitungBMI(berat, tinggi);
-    
+
+    // Menampilkan hasil BMI dan kondisi berat badan
+    cout << "BMI Anda: " << bmi << endl;
+
