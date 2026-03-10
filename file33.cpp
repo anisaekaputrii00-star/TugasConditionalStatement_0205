@@ -29,3 +29,13 @@ string kondisiBMI(float bmi) {
         return "Berat Badan Obesitas";
     }
 }
+
+int main() {
+    float berat, tinggi, bmi;
+
+    // Memanggil prosedur input
+    inputData(berat, tinggi);
+
+    // Memanggil fungsi hitung BMI
+    bmi = hitungBMI(berat, tinggi);
+    
